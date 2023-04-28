@@ -1,0 +1,54 @@
+code[class*="language-"],pre,pre[class*="language-"] {
+	font-family: Consolas, monospace;
+	font-size: clamp(0.75rem, 0.75rem + 0.18vw, 0.85rem);
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	tab-size: 4;
+	hyphens: none;
+	background: var(--transparent);	
+	color: var(--white);
+  padding: 1.25rem;
+  border-radius: 7px;	
+	overflow: auto;
+}
+
+pre > code[class*="language-"] {font-size: 1em; }
+pre[class*="language-"] {padding: 1em;margin: .5em 0;overflow: auto;}
+:not(pre) > code[class*="language-"] {padding: .1em;border-radius: .3em;}
+
+.token.comment,.token.prolog,.token.doctype,.token.cdata {color: #6c6783;}
+.token.punctuation {color: #6c6783;}
+.token.namespace {opacity: .7;}
+.token.tag,.token.operator,.token.number {color: var(--orange);}
+.token.property,.token.function {color: var(--blue);}
+.token.tag-id,.token.selector,.token.atrule-id {color: #eeebff;}
+
+code.language-javascript,.token.attr-name {color: #c4b9fe;}
+
+code.language-css,code.language-scss,.token.boolean,.token.string,.token.entity,
+.token.url,.language-css .token.string,.language-scss .token.string,.style .token.string,.token.attr-value,
+.token.keyword,.token.control,.token.directive,.token.unit,.token.statement,.token.regex,.token.atrule {
+	color: var(--peach);
+}
+
+.token.placeholder, .token.variable {color: var(--peach);}
+.token.deleted {text-decoration: line-through;}
+.token.inserted {border-bottom: 1px dotted #eeebff;text-decoration: none;}
+.token.italic {font-style: italic;}
+.token.important, .token.bold {font-weight: bold;}
+.token.important {color: #c4b9fe;}
+.token.entity {cursor: help;}
+
+pre > code.highlight { outline: .4em solid #8a75f5;outline-offset: .4em;}
+
+.line-numbers.line-numbers .line-numbers-rows {border-right-color: #2c2937;}
+
+.line-numbers .line-numbers-rows > span:before {color: #3c3949;}
+
+.line-highlight.line-highlight {
+	background: rgba(224, 145, 66, 0.2);
+	background: linear-gradient(to right, rgba(224, 145, 66, 0.2) 70%, rgba(224, 145, 66, 0));
+}

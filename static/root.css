@@ -1,0 +1,42 @@
+* {box-sizing: border-box;}
+
+:root {
+  --white:#fff;
+  --black:#051d00;
+  --dark:#0a3a00;
+  --light: #77af64;
+  --blue: #9a86fd;
+  --green: #24dc00;
+  --orange:#e09142;
+  --peach:#ffcc99;
+  --transparent:#0a3a004d;
+  --flow-space: clamp(2.375rem, 1.98rem + 1.96vw, 3.75rem);
+  --filter:sepia(100%) hue-rotate(74deg) saturate(400%);
+  --gradient:linear-gradient(180deg,#062200d7,#010600f8), url(/bg.webp);
+  --shadow:0 4px 20px rgba(19, 53, 0, 0.452);
+}
+
+html { background-color: #062200d7; -webkit-text-size-adjust: 100%;line-height: 1.15;}
+
+body {
+  color: var(--white);
+  background: var(--green);
+  background: var(--gradient);
+  background-repeat: no-repeat;
+  backdrop-filter: blur(2px);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;  
+  font-size: clamp(1rem, 0.96rem + 0.18vw, 1.125rem);
+  line-height: 1.7;
+  font-family: monospace, sans-serif;
+  font-display: optional;
+  letter-spacing: .6px;
+  padding:10px;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+}
