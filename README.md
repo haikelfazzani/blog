@@ -7,6 +7,7 @@
 - Styling: Custom CSS
 - Analytics: Microsoft Clarity
 - Icons: Fontawesome
+- Comment System: Disqus
 
 ### Usage
 
