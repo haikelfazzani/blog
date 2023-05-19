@@ -6,7 +6,7 @@ export default function ListProjects({ section, projects }: { section: string | 
   if (!section || !projects || projects.length<1) return <p class="alert bg-dark p-2 mt-3 br7">Nothing found!<i class="fa fa-smile ml-1"></i></p>
 
   return <ul class="w-100 grid-2 mt-3">
-    {projects?.map((project: Project, i: number) => <li class="mb-2 p-2 card" key={i}>
+    {projects?.map((project: Project, i: number) => <li class="mb-2 p-2 card position-relative" key={i}>
       <div class="w-100 mb-2 d-flex justify-between">
         <a href={`/portfolio/${section}/${project.slug.trim()}`}>
           <h2 class="m-0 text-3">{project.title}</h2>
@@ -21,6 +21,10 @@ export default function ListProjects({ section, projects }: { section: string | 
       </div>
 
       <p>{project.description}</p>
+
+      <div class="d-flex flex-wrap">
+        {project.tags.split(',').map((tag:string,i:number)=> <span class="tag mr-1 mb-1" key={i}>{tag}</span>)}
+      </div>
     </li>)}
   </ul>
 }
