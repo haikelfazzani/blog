@@ -46,14 +46,6 @@ export default function Home() {
             </li>)}
           </ul>
         </section>
-
-        <section class="mb-3">
-          <h2 class="text-3">My crypto wallets</h2>
-          <ul>
-            <li><i class="fab fa-ethereum"></i> Ethereum address: <span>0x776EF7DD10C34fC32F85170777EEA00d06b05225</span></li>
-            <li><i class="fab fa-bitcoin"></i> Bitcoin address: <span>3EpA5izERrns4LVJqVchGepXCEeJzYaxBg</span></li>
-          </ul>
-        </section>
       </main>
     </>
   );

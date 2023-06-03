@@ -10,6 +10,10 @@ export default function about() {
       <h1>About</h1>
 
       <section class="mb-3">
+        <p>Hey! my name is Haikel Fazzani from Tunisia, i am passionate about building excellent software that improves the lives of those around me. I specialize in creating software for clients ranging from individuals and small-businesses all the way to large enterprise corporations.</p>
+      </section>
+
+      <section class="mb-3">
           <h2 class="m-0 mb-1 text-3">FullStack developer</h2>
           <ul>
             <li><i class="fa fa-circle light mr-1"></i>Linux</li>
