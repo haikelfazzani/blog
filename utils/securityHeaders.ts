@@ -4,8 +4,6 @@
 const isDevMode = Deno.env.get('DENO_ENV') && Deno.env.get('DENO_ENV') === 'dev';
 
 const csp = `
-style-src 'self' https://fonts.googleapis.com https://use.fontawesome.com https://disqus.com https://c.disquscdn.com;
-font-src https://fonts.gstatic.com https://use.fontawesome.com https://disqus.com;
 media-src 'none';
 upgrade-insecure-requests;
 frame-src https://disqus.com; 
