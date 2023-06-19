@@ -4,7 +4,7 @@ import { Layout } from "../components/Layout.tsx";
 import Footer from "../components/Footer.tsx";
 
 export default function App(props: AppProps) {
-  
+
   return (
     <html style="background:#0a3a00;">
       <Head key="0">
@@ -24,8 +24,8 @@ export default function App(props: AppProps) {
         <link rel="stylesheet" href={asset('/root.css')} />
         <link rel="stylesheet" as="style" href={asset('/index.css')} />
         <link rel="stylesheet" as="style" href={asset('/util.css')} />
-        <link rel="preload" as="style" href={asset('/prism.css')} onload="this.onload=null;this.rel='stylesheet'"/>
-        <link rel="preload" as="style" href={asset('/animation.css')} onload="this.onload=null;this.rel='stylesheet'"/>
+        <link rel="preload" as="style" href={asset('/prism.css')} />
+        <link rel="preload" as="style" href={asset('/animation.css')} />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

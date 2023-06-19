@@ -1,7 +1,7 @@
 import { MiddlewareHandlerContext } from "$fresh/server.ts";
 import SecurityHeaders from "../utils/securityHeaders.ts";
 
-const isDevMode = Deno.env.get('DENO_ENV') && Deno.env.get('DENO_ENV') === 'dev';
+const isDevMode = Deno.env.get('MODE') === 'dev';
 const devPaths = ['_frsh/alive', '_frsh/refresh.js'];
 
 type Client = {

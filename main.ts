@@ -1,4 +1,5 @@
 /// <reference no-default-lib="true" />
+/// <reference lib="deno.unstable" />
 /// <reference lib="dom" />
 /// <reference lib="dom.iterable" />
 /// <reference lib="dom.asynciterable" />
