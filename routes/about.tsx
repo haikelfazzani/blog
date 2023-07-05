@@ -14,7 +14,7 @@ export default function about() {
       </section>
 
       <section class="mb-3">
-          <h2 class="m-0 mb-1 text-3">FullStack developer</h2>
+          <h2 class="m-0 mb-1 text-3">Network Programmer, Malware Analyst and FullStack developer</h2>
           <ul>
             <li><i class="fa fa-circle light mr-1"></i>Linux</li>
             <li><i class="fa fa-circle light mr-1"></i>React JS/Native</li>

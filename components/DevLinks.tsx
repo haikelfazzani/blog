@@ -1,4 +1,6 @@
-const socialLinks = [
+import ExternalLink from "./ExternalLink.tsx";
+
+const links = [
   {
     href: "https://github.com/haikelfazzani",
     img: "https://github.githubassets.com/favicons/favicon.svg",
@@ -8,16 +10,6 @@ const socialLinks = [
     href: "https://gitlab.com/haikelfazzani",
     img: "https://i.ibb.co/cyPGLnG/gitlab.png",
     title: "Gitlab"
-  },
-  {
-    href: "https://www.youtube.com/@HaikelFazzanii",
-    img: "https://i.ibb.co/QKXmqmL/youtube.png",
-    title: "Youtube"
-  },
-  {
-    href: "https://twitter.com/HaikelFazzani",
-    img: "https://i.ibb.co/TKB3Z2H/twitter-46x38-2x.png",
-    title: "Twitter"
   },
   {
     href: "https://www.codewars.com/users/Haikel",
@@ -34,6 +26,17 @@ const socialLinks = [
     img: "https://i.ibb.co/wcs3HJw/leetcode-32x32.png",
     title: "Leetcode"
   }
-]
+];
 
-export default socialLinks
+export default function DevLinks({ clx = "social d-flex justify-center align-center flex-wrap mt-2 mb-2", showAsCard = false }) {
+  return <div class={clx}>
+    {links.map((s, i) => <ExternalLink
+      key={i}
+      clx={showAsCard ? 'w-100 card p-2 center' : ''}
+      href={s.href}
+      title={s.title}>
+      <img class="mx-auto" width="35" src={s.img} alt={s.title} loading="lazy" />
+      {showAsCard && <small class="mt-2">{s.title}</small>}
+    </ExternalLink>)}
+  </div>
+}
