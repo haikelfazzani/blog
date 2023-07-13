@@ -33,6 +33,7 @@ export default function SnippetPost({ data }: PageProps<BlogPost>) {
   return <>
     <Meta post={data}>
       <title>{data.title} | Snippet</title>
+      <meta name="description" content="A few highlights of Haikel Fazzani snippets" />
       <link rel="canonical" href={`${Deno.env.get("BASE_URL_WEBSITE")}/snippets/${data.slug}`} />
     </Meta>
 

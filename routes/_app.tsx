@@ -4,7 +4,6 @@ import { Layout } from "../components/Layout.tsx";
 import Footer from "../components/Footer.tsx";
 
 export default function App(props: AppProps) {
-
   return (
     <html style="background:#0a3a00;">
       <Head key="0">
@@ -21,11 +20,28 @@ export default function App(props: AppProps) {
         <link rel="alternate" type="application/rss+xml" title="haikel-fazzani.deno.dev" href="/sitemap.xml" />
         <link rel="manifest" href="/manifest.json" />
 
+        <title>Haikel Fazzani | Linux, React/Native, Typescript, NodeJs and Go developer</title>
+        <meta name="title" content="Haikel Fazzani | Linux, React/Native, Typescript, NodeJs and Go developer" />
+        <meta name="description" content="Haikel Fazzani: Master's in Network Security | Linux, React/Native, TypeScript, Node.js, Go Developer" />
+        <meta itemProp="image" content="https://i.ibb.co/Yk6RvV0/Screenshot-2023-07-13-10-55-26.png"></meta>
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://haikel-fazzani.deno.dev" />
+        <meta property="og:title" content="Haikel Fazzani | Linux, React/Native, Typescript, NodeJs and Go developer" />
+        <meta property="og:description" content="Haikel Fazzani: Master's in Network Security | Linux, React/Native, TypeScript, Node.js, Go Developer" />
+        <meta property="og:image" content="https://i.ibb.co/Yk6RvV0/Screenshot-2023-07-13-10-55-26.png" />
+
+        <meta property="twitter:card" content="https://i.ibb.co/Yk6RvV0/Screenshot-2023-07-13-10-55-26.png" />
+        <meta property="twitter:url" content="https://haikel-fazzani.deno.dev" />
+        <meta property="twitter:title" content="Haikel Fazzani | Linux, React/Native, Typescript, NodeJs and Go developer" />
+        <meta property="twitter:description" content="Haikel Fazzani: Master's in Network Security | Linux, React/Native, TypeScript, Node.js, Go Developer" />
+        <meta property="twitter:image" content="https://i.ibb.co/Yk6RvV0/Screenshot-2023-07-13-10-55-26.png" />
+
         <link rel="stylesheet" href={asset('/root.css')} />
         <link rel="stylesheet" as="style" href={asset('/index.css')} />
         <link rel="stylesheet" as="style" href={asset('/util.css')} />
-        <link rel="preload" as="style" href={asset('/prism.css')} />
-        <link rel="preload" as="style" href={asset('/animation.css')} />
+        <link rel="stylesheet" as="style" href={asset('/prism.css')} />
+        <link rel="stylesheet" as="style" href={asset('/animation.css')} />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

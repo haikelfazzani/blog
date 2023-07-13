@@ -27,7 +27,7 @@ export default function Page({ data }: PageProps<Data[]>) {
     <>
       <Meta>
         <title>Portfolio | Haikel Fazzani</title>
-        <meta name="description" content="A few highlights of my open-source portfolio" />
+        <meta name="description" content="A few highlights of Haikel Fazzani open-source projects" />
         <link rel="canonical" href="https://haikel-fazzani.deno.dev/portfolio" />
       </Meta>
 

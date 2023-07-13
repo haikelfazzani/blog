@@ -18,7 +18,7 @@ const links = [
   },
   {
     href: "https://www.tiktok.com/@haikel.fazzani",
-    img: "https://assets.stickpng.com/images/62012ee14babde0004ca4177.png",
+    img: "https://sf-tb-sg.ibytedtos.com/obj/eden-sg/uhtyvueh7nulogpoguhm/tiktok-icon2.png",
     title: "Tiktok"
   }
 ];

@@ -51,6 +51,7 @@ export default function Page({ data }: PageProps<Data>) {
   return <>
     <Meta>
       <title>Blog | Haikel Fazzani</title>
+      <meta name="description" content="Haikel Fazzani blog posts" />
       <meta name="keywords" content={tags?.join(',')} />
     </Meta>
 

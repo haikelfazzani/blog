@@ -25,7 +25,7 @@ export type Project = {
   slug: string
   tags: string
   description: string
-  images?: string[]
+  images: string[]
   repository?: string
   website?: string
   firefox?: string

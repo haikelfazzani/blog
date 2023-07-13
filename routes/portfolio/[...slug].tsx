@@ -55,6 +55,7 @@ export default function Page({ data }: PageProps<Data>) {
       <meta name="keywords" content={data.project?.tags || data.tags?.join(',')} />
       <meta name="description" content={data.project?.description} />
       <link rel="canonical" href={`${Deno.env.get("BASE_URL_WEBSITE")}/${data.section}/${data.slug}`} />
+      {data.section && data.slug && data.project && <meta itemProp="image" content={data.project?.images[0]}></meta>}
     </Meta>
 
     {data.section && data.slug && data.project
