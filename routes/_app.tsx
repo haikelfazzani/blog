@@ -23,19 +23,19 @@ export default function App(props: AppProps) {
         <title>Haikel Fazzani | Linux, React/Native, Typescript, NodeJs and Go developer</title>
         <meta name="title" content="Haikel Fazzani | Linux, React/Native, Typescript, NodeJs and Go developer" />
         <meta name="description" content="Haikel Fazzani: Master's in Network Security | Linux, React/Native, TypeScript, Node.js, Go Developer" />
-        <meta itemProp="image" content="https://i.ibb.co/Yk6RvV0/Screenshot-2023-07-13-10-55-26.png"></meta>
+        <meta itemProp="image" content="https://i.ibb.co/SwqxSc0/Screenshot-2023-07-13-10-55-26.png"></meta>
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://haikel-fazzani.deno.dev" />
         <meta property="og:title" content="Haikel Fazzani | Linux, React/Native, Typescript, NodeJs and Go developer" />
         <meta property="og:description" content="Haikel Fazzani: Master's in Network Security | Linux, React/Native, TypeScript, Node.js, Go Developer" />
-        <meta property="og:image" content="https://i.ibb.co/Yk6RvV0/Screenshot-2023-07-13-10-55-26.png" />
+        <meta property="og:image" content="https://i.ibb.co/SwqxSc0/Screenshot-2023-07-13-10-55-26.png" />
 
-        <meta property="twitter:card" content="https://i.ibb.co/Yk6RvV0/Screenshot-2023-07-13-10-55-26.png" />
+        <meta property="twitter:card" content="https://i.ibb.co/SwqxSc0/Screenshot-2023-07-13-10-55-26.png" />
         <meta property="twitter:url" content="https://haikel-fazzani.deno.dev" />
         <meta property="twitter:title" content="Haikel Fazzani | Linux, React/Native, Typescript, NodeJs and Go developer" />
         <meta property="twitter:description" content="Haikel Fazzani: Master's in Network Security | Linux, React/Native, TypeScript, Node.js, Go Developer" />
-        <meta property="twitter:image" content="https://i.ibb.co/Yk6RvV0/Screenshot-2023-07-13-10-55-26.png" />
+        <meta property="twitter:image" content="https://i.ibb.co/SwqxSc0/Screenshot-2023-07-13-10-55-26.png" />
 
         <link rel="stylesheet" href={asset('/root.css')} />
         <link rel="stylesheet" as="style" href={asset('/index.css')} />
