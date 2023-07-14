@@ -1,9 +1,9 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
 import ExternalLink from "../../components/ExternalLink.tsx";
 import Link from "../../components/Link.tsx";
-import Meta from "../../components/Meta.tsx";
 import GetPosts from "../../queries/GetPosts.ts";
 import { BlogPatialPost } from "../../types/all.d.ts";
+import { Head } from "$fresh/runtime.ts";
 
 type Data = {
   posts: BlogPatialPost[] | null
@@ -49,14 +49,19 @@ export default function Page({ data }: PageProps<Data>) {
   const { posts, tag, tags } = data;
 
   return <>
-    <Meta>
+    <Head>
       <title>Blog | Haikel Fazzani</title>
       <meta name="description" content="Haikel Fazzani blog posts" />
-      <meta name="keywords" content={tags?.join(',')} />
-    </Meta>
+      <meta name="keywords" content={tags?.join(',')} />     
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content={`${Deno.env.get("BASE_URL_WEBSITE")}/blog`} />
+      <meta property="og:title" content="Blog | Haikel Fazzani" />
+      <meta property="og:description" content="I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece" />
+      <meta property="og:image" content="https://i.ibb.co/SwqxSc0/Screenshot-2023-07-13-10-55-26.png" />
+    </Head>
 
     <main class="overflow">
-      <h1>Blog</h1>
+      <h1>Blog <small>({posts?.length})</small></h1>
 
       <p class="mb-0">I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece.</p>
       <p>If you like algorithms, check out this repository on <ExternalLink title="Gitlab" clx="green" href="https://gitlab.com/haikelfazzani/code-challenges" />.</p>

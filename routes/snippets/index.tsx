@@ -46,11 +46,15 @@ export default function Page({ data }: PageProps<Data>) {
   return <>
     <Meta>
       <title>Snippets | Haikel Fazzani</title>
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content={`${Deno.env.get("BASE_URL_WEBSITE")}/snippets`} />
+      <meta property="og:title" content="Snippets | Haikel Fazzani" />
+      <meta property="og:description" content="Some useful snippets for your next new project written by Haikel Fazzani." />
+      <meta property="og:image" content="https://i.ibb.co/SwqxSc0/Screenshot-2023-07-13-10-55-26.png" />
     </Meta>
 
     <main class="overflow">
-      <h1>Snippets</h1>
-
+      <h1>Snippets <small>({snippets?.length})</small></h1>
       <p class="mb-0">Some useful snippets for your next new project.</p>
 
       {tag && <h6><i class="fa fa-search mr-1"></i>{snippets?.length} result<small>(s)</small> found: {tag}</h6>}

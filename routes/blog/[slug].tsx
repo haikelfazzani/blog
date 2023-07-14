@@ -1,9 +1,9 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
 import Markdown from "../../islands/Markdown.tsx";
-import Meta from "../../components/Meta.tsx";
 import GetPost from "../../queries/GetPost.ts";
 import { BlogPost } from "../../types/all.d.ts";
 import Disqus from "../../islands/Disqus.tsx";
+import { Head, asset } from "$fresh/runtime.ts";
 
 export const handler: Handlers<BlogPost[] | null> = {
   async GET(_req, ctx) {
@@ -31,11 +31,21 @@ export const handler: Handlers<BlogPost[] | null> = {
 
 export default function Post({ data }: PageProps<BlogPost>) {
   return <>
-    <Meta post={data}>
+    <Head>
       <title>{data.title} | Blog</title>
       <meta name="description" content={data.excerpt} />
+      <meta name="keywords" content={data.tags?.join(',')} />
+      <meta itemProp="author" content="Haikel Fazzani" />
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content={`${Deno.env.get("BASE_URL_WEBSITE")}/blog/${data.slug}`} />
+      <meta property="og:title" content={data.title} />
+      <meta property="og:description" content={data.excerpt} />
+      <meta property="og:image" content="https://i.ibb.co/SwqxSc0/Screenshot-2023-07-13-10-55-26.png" />
+
       <link rel="canonical" href={`${Deno.env.get("BASE_URL_WEBSITE")}/blog/${data.slug}`} />
-    </Meta>
+      <link rel="stylesheet" as="style" href={asset('/prism.css')} />
+    </Head>
 
     <main class="grid-2-1 p-0">
       <Markdown data={data.content.markdown} />

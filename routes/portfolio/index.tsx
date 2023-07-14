@@ -1,6 +1,6 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
 import Link from "../../components/Link.tsx";
-import Meta from "../../components/Meta.tsx";
+import { Head } from "$fresh/runtime.ts";
 
 type Data = {
   name: string
@@ -25,11 +25,18 @@ export const handler: Handlers<Data[]> = {
 export default function Page({ data }: PageProps<Data[]>) {
   return (
     <>
-      <Meta>
+      <Head>
         <title>Portfolio | Haikel Fazzani</title>
         <meta name="description" content="A few highlights of Haikel Fazzani open-source projects" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={`${Deno.env.get("BASE_URL_WEBSITE")}/portfolio`} />
+        <meta property="og:title" content="Portfolio | Haikel Fazzani" />
+        <meta property="og:description" content="A few highlights of Haikel Fazzani open-source projects" />
+
+        <meta property="og:image" content="https://i.ibb.co/SwqxSc0/Screenshot-2023-07-13-10-55-26.png" />
         <link rel="canonical" href="https://haikel-fazzani.deno.dev/portfolio" />
-      </Meta>
+      </Head>
 
       {data && data.length > 0 && <main class="overflow">
         <h1>Portfolio <small>({data.reduce((a, c) => a + c.count, 0)})</small></h1>
