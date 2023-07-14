@@ -51,7 +51,7 @@ export const handler: Handlers<Data> = {
 export default function Page({ data }: PageProps<Data>) {
   return <>
     <Head>
-      <title>{data.project?.title || data.section} | Haikel Fazzani</title>
+      <title>{data.project?.title || data.section} | Portfolio</title>
       <meta name="keywords" content={data.project?.tags || data.tags?.join(',')} />
       <meta name="description" content={data.project?.description || `A few highlights of ${data.section} open-source projects`} />
 
