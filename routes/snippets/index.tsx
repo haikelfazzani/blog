@@ -46,6 +46,7 @@ export default function Page({ data }: PageProps<Data>) {
   return <>
     <Meta>
       <title>Snippets | Haikel Fazzani</title>
+      <meta itemProp="author" content="Haikel Fazzani" />
       <meta property="og:type" content="website" />
       <meta property="og:url" content={`${Deno.env.get("BASE_URL_WEBSITE")}/snippets`} />
       <meta property="og:title" content="Snippets | Haikel Fazzani" />

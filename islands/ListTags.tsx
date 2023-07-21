@@ -1,14 +1,11 @@
 import { useState } from "preact/hooks";
 
 export default function ListTags({ section, tags }: { section: string | undefined, tags: string[] | undefined }) {
-
-  if (!tags) return <></>
+  if (!tags) return <></>;
 
   const [show, setShow] = useState(false)
 
-  const onToggle = () => {
-    setShow(!show)
-  }
+  const onToggle = () => {setShow(!show)}
 
   return <ul class="d-flex flex-wrap">
     <li class="tag bg-transparent bordered mr-1 mb-1 cp"><a href={`/portfolio/${section}?tag=all`} title="Show all projects">all</a></li>

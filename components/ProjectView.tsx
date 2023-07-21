@@ -2,12 +2,27 @@ import Disqus from '../islands/Disqus.tsx';
 import ImagesView from '../islands/ImagesView.tsx';
 import type { Project } from '../types/all.d.ts';
 import ExternalLink from './ExternalLink.tsx';
+import { Head } from "$fresh/runtime.ts";
 
 export default function ProjectView({ project, section }: { project: Project, section: string }) {
-
   if (!section || !project) return <></>;
 
   return <main class="grid-2-1 p-0">
+    <Head>
+      <title>{project.title} | Portfolio | Haikel Fazzani</title>
+      <meta name="keywords" content={project.tags} />
+      <meta name="description" content={project?.description} />
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content={`${Deno.env.get("BASE_URL_WEBSITE")}/${section}/${project.slug}`} />
+      <meta property="og:title" content={project.title} />
+      <meta property="og:description" content={project.description} />
+
+      <link rel="canonical" href={`${Deno.env.get("BASE_URL_WEBSITE")}/${section}/${project.slug}`} />
+      <meta itemProp="image" content={project?.images[0]}></meta>
+    </Head>
+
+
     <div class="overflow">
 
       <section class="p-2">

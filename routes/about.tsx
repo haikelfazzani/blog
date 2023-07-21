@@ -6,7 +6,7 @@ export default function about() {
       <Meta>
         <title>About | Haikel Fazzani</title>
         <meta name="description" content="A few highlights of Haikel Fazzani snippets" />
-        <meta name="keywords" content="about,fullstacj,developer,javascript,linux" />
+        <meta name="keywords" content="network,network security,haikel,haikel fazzani,fazzani,software,engineer,web,about,fullstack,developer,javascript,linux" />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content={`${Deno.env.get("BASE_URL_WEBSITE")}/about`} />

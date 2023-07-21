@@ -19,6 +19,7 @@ export default function App(props: AppProps) {
         <link rel="apple-touch-icon" href="/192.png" type="image/png" />
         <link rel="alternate" type="application/rss+xml" title="haikel-fazzani.deno.dev" href="/sitemap.xml" />
         <link rel="manifest" href="/manifest.json" />
+        <meta name="keywords" content="network,network security,haikel,haikel fazzani,fazzani,software,engineer,web,about,fullstack,developer,golang,software engineer,full stack,js,javascript,linux" />
 
         <link rel="stylesheet" href={asset('/root.css')} />
         <link rel="stylesheet" as="style" href={asset('/index.css')} />

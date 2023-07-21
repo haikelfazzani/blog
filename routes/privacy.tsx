@@ -4,7 +4,7 @@ export default function PrivacyPage() {
   return (<main class="overflow">
     <Meta>
       <title>Privacy &#38; Policy | Haikel Fazzani</title>
-      <link rel="canonical" href="https://haikel-fazzani.deno.dev/privacy" />
+      <link rel="canonical" href={Deno.env.get("BASE_URL_WEBSITE") + "/privacy"} />
     </Meta>
 
     <h1>Privacy Policy</h1>

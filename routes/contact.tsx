@@ -7,7 +7,7 @@ export default function contact() {
     <main class="overflow">
       <Meta>
         <title>Contact | Haikel Fazzani</title>
-        <link rel="canonical" href="https://haikel-fazzani.deno.dev/contact" />
+        <link rel="canonical" href={Deno.env.get("BASE_URL_WEBSITE") +"/contact"} />
       </Meta>
 
       <h1>CONTACT</h1>

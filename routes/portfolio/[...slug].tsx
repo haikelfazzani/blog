@@ -1,10 +1,9 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
 import ProjectView from "../../components/ProjectView.tsx";
-import ListProjects from "../../islands/ListProjects.tsx";
 import ListTags from "../../islands/ListTags.tsx";
 import type { Project } from '../../types/all.d.ts';
 import removeDuplicate from "../../utils/removeDuplicate.ts";
-import { Head } from "$fresh/runtime.ts";
+import ListProjects from "../../components/ListProjects.tsx";
 
 type Data = {
   projects?: Project[]
@@ -49,21 +48,7 @@ export const handler: Handlers<Data> = {
 };
 
 export default function Page({ data }: PageProps<Data>) {
-  return <>
-    <Head>
-      <title>{data.project?.title || data.section} | Portfolio</title>
-      <meta name="keywords" content={data.project?.tags || data.tags?.join(',')} />
-      <meta name="description" content={data.project?.description || `A few highlights of ${data.section} open-source projects`} />
-
-      <meta property="og:type" content="website" />
-      <meta property="og:url" content={`${Deno.env.get("BASE_URL_WEBSITE")}/${data.section}/${data.slug}`} />
-      <meta property="og:title" content={data.project?.title || data.section} />
-      <meta property="og:description" content={data.project?.description || `A few highlights of ${data.section} open-source projects`} />
-
-      <link rel="canonical" href={`${Deno.env.get("BASE_URL_WEBSITE")}/${data.section}/${data.slug}`} />
-      {data.section && data.slug && data.project && <meta itemProp="image" content={data.project?.images[0]}></meta>}
-    </Head>
-
+  return <>    
     {data.section && data.slug && data.project
       ? <ProjectView project={data.project} section={data.section} />
 

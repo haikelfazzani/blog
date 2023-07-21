@@ -51,12 +51,13 @@ export default function Page({ data }: PageProps<Data>) {
   return <>
     <Head>
       <title>Blog | Haikel Fazzani</title>
-      <meta name="description" content="Haikel Fazzani blog posts" />
+      <meta name="description" content="I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece" />
       <meta name="keywords" content={tags?.join(',')} />     
+      <meta itemProp="author" content="Haikel Fazzani" />
       <meta property="og:type" content="website" />
       <meta property="og:url" content={`${Deno.env.get("BASE_URL_WEBSITE")}/blog`} />
       <meta property="og:title" content="Blog | Haikel Fazzani" />
-      <meta property="og:description" content="I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece" />
+      <meta property="og:description" content="I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece." />
       <meta property="og:image" content="https://i.ibb.co/SwqxSc0/Screenshot-2023-07-13-10-55-26.png" />
     </Head>
 
