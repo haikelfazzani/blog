@@ -4,7 +4,7 @@
 const isDevMode = Deno.env.get('DENO_ENV') && Deno.env.get('DENO_ENV') === 'dev';
 
 const csp = `
-media-src 'none';
+media-src 'self';
 upgrade-insecure-requests;
 frame-src https://disqus.com; 
 frame-ancestors 'none'; 
