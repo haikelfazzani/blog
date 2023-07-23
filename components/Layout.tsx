@@ -22,7 +22,11 @@ export function Main(props: { children: ComponentChild }) {
 }
 
 export function Layout(props: { children: ComponentChild }) {
-  return <div id="root">{props.children}</div>
+  return <div id="root">
+    <div class="w-100 h-100 overlay"></div>
+    <video class="w-100 h-100" src="/n-matrix.mp4" loop autoPlay muted></video>
+    {props.children}
+  </div>
 }
 
 Layout.Nav = Nav;

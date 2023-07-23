@@ -1,6 +1,6 @@
-import ExternalLink from '../components/ExternalLink.tsx'
 import { Project } from '../types/all.d.ts';
 import { Head } from "$fresh/runtime.ts";
+import CardProject from '../islands/CardProject.tsx';
 
 export default function ListProjects({ section, projects }: { section: string | undefined, projects: Project[] | undefined }) {
   if (!section || !projects || projects.length < 1) return <p class="alert bg-dark p-2 mt-3 br7">Nothing found!<i class="fa fa-smile ml-1"></i></p>
@@ -22,24 +22,7 @@ export default function ListProjects({ section, projects }: { section: string | 
 
     <ul class="w-100 grid-2 mt-3">
       {projects?.map((project: Project, i: number) => <li class="mb-2 p-2 card position-relative" key={i} title={project.title}>
-        <div class="w-100 mb-2 d-flex justify-between">
-          <a href={`/portfolio/${section}/${project.slug.trim()}`}>
-            <h2 class="m-0 text-3">{project.title}</h2>
-          </a>
-
-          <div class="ml-1 d-flex flex-wrap out-links">
-            <ExternalLink href={project.website}><i class="fas fa-globe"></i></ExternalLink>
-            <ExternalLink href={project.edge}><i class="fab fa-edge"></i></ExternalLink>
-            <ExternalLink href={project.firefox}><i class="fab fa-firefox"></i></ExternalLink>
-            <ExternalLink href={project.repository}><i class="fab fa-github"></i></ExternalLink>
-          </div>
-        </div>
-
-        <p>{project.description}</p>
-
-        <div class="d-flex flex-wrap">
-          {project.tags.split(',').map((tag: string, i: number) => <span class="tag mr-1 mb-1" key={i}>{tag}</span>)}
-        </div>
+        <CardProject project={project} section={section} />
       </li>)}
     </ul>
   </>

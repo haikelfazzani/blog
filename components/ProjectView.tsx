@@ -22,9 +22,7 @@ export default function ProjectView({ project, section }: { project: Project, se
       <meta itemProp="image" content={project?.images[0]}></meta>
     </Head>
 
-
     <div class="overflow">
-
       <section class="p-2">
         <div class="d-flex justify-between align-center flex-wrap mb-1">
           <h1 class="m-0">{project?.title}</h1>

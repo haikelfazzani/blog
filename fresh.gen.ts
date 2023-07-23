@@ -17,10 +17,11 @@ import * as $11 from "./routes/privacy.tsx";
 import * as $12 from "./routes/snippets/[slug].tsx";
 import * as $13 from "./routes/snippets/index.tsx";
 import * as $14 from "./routes/types/Project.ts";
-import * as $$0 from "./islands/Disqus.tsx";
-import * as $$1 from "./islands/ImagesView.tsx";
-import * as $$2 from "./islands/ListTags.tsx";
-import * as $$3 from "./islands/Markdown.tsx";
+import * as $$0 from "./islands/CardProject.tsx";
+import * as $$1 from "./islands/Disqus.tsx";
+import * as $$2 from "./islands/ImagesView.tsx";
+import * as $$3 from "./islands/ListTags.tsx";
+import * as $$4 from "./islands/Markdown.tsx";
 
 const manifest = {
   routes: {
@@ -41,10 +42,11 @@ const manifest = {
     "./routes/types/Project.ts": $14,
   },
   islands: {
-    "./islands/Disqus.tsx": $$0,
-    "./islands/ImagesView.tsx": $$1,
-    "./islands/ListTags.tsx": $$2,
-    "./islands/Markdown.tsx": $$3,
+    "./islands/CardProject.tsx": $$0,
+    "./islands/Disqus.tsx": $$1,
+    "./islands/ImagesView.tsx": $$2,
+    "./islands/ListTags.tsx": $$3,
+    "./islands/Markdown.tsx": $$4,
   },
   baseUrl: import.meta.url,
 };
