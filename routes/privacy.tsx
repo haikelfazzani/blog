@@ -1,11 +1,13 @@
-import Meta from "../components/Meta.tsx";
+import { Head } from "$fresh/runtime.ts";
 
 export default function PrivacyPage() {
   return (<main class="overflow">
-    <Meta>
+    <Head>
       <title>Privacy &#38; Policy | Haikel Fazzani</title>
+      <meta itemProp="image" content="https://i.ibb.co/SwqxSc0/Screenshot-2023-07-13-10-55-26.png"></meta>
+      <meta itemProp="author" content="Haikel Fazzani" />
       <link rel="canonical" href={Deno.env.get("BASE_URL_WEBSITE") + "/privacy"} />
-    </Meta>
+    </Head>
 
     <h1>Privacy Policy</h1>
     <p>Last updated: February 09, 2023</p>

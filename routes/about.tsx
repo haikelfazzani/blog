@@ -1,19 +1,21 @@
-import Meta from "../components/Meta.tsx";
+import { Head } from "$fresh/runtime.ts";
 
 export default function about() {
   return (
     <main class="overflow">
-      <Meta>
+      <Head>
         <title>About | Haikel Fazzani</title>
         <meta name="description" content="A few highlights of Haikel Fazzani snippets" />
         <meta name="keywords" content="network,network security,haikel,haikel fazzani,fazzani,software,engineer,web,about,fullstack,developer,javascript,linux" />
+        <meta itemProp="image" content="https://i.ibb.co/SwqxSc0/Screenshot-2023-07-13-10-55-26.png"></meta>
+        <meta itemProp="author" content="Haikel Fazzani" />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content={`${Deno.env.get("BASE_URL_WEBSITE")}/about`} />
         <meta property="og:title" content="About | Haikel Fazzani" />
         <meta property="og:description" content="Hey! my name is Haikel Fazzani from Tunisia, i am passionate about building excellent software that improves the lives of those around me. I specialize in creating software for clients ranging from individuals and small-businesses all the way to large enterprise corporations." />
         <meta property="og:image" content="https://i.ibb.co/SwqxSc0/Screenshot-2023-07-13-10-55-26.png" />
-      </Meta>
+      </Head>
 
       <h1>About</h1>
 

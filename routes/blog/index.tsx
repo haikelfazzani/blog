@@ -28,7 +28,7 @@ export const handler: Handlers<Data> = {
 
       const { data, errors } = await res.json();
 
-      if (errors || res.status === 404 || data.posts.length < 1)  throw new Error('No posts found');
+      if (errors || res.status === 404 || data.posts.length < 1) throw new Error('No posts found');
 
       let posts: BlogPatialPost[] = data.posts.slice(0);
 
@@ -37,8 +37,7 @@ export const handler: Handlers<Data> = {
 
       if (tag && tag.length < 200) posts = tag === 'all' ? data.posts : data.posts.filter((p: BlogPatialPost) => p.tags.includes(tag));
 
-      const resp = await ctx.render({ posts, tag, tags });
-      return resp;
+      return await ctx.render({ posts, tag, tags });
     } catch (_error) {
       return ctx.renderNotFound();
     }
@@ -46,13 +45,13 @@ export const handler: Handlers<Data> = {
 };
 
 export default function Page({ data }: PageProps<Data>) {
-  const { posts, tag, tags } = data;
-
+  let { posts, tag, tags } = data;
+  tags = [...tags, 'network security', 'web dev', 'programming', 'blog dev', 'open source', 'haikel fazzani', 'haikel'];
   return <>
     <Head>
       <title>Blog | Haikel Fazzani</title>
       <meta name="description" content="I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece" />
-      <meta name="keywords" content={tags?.join(',')} />     
+      <meta name="keywords" content={tags?.join(',')} />
       <meta itemProp="author" content="Haikel Fazzani" />
       <meta property="og:type" content="website" />
       <meta property="og:url" content={`${Deno.env.get("BASE_URL_WEBSITE")}/blog`} />

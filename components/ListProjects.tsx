@@ -9,7 +9,7 @@ export default function ListProjects({ section, projects }: { section: string | 
     <Head>
       <title>{section} | Portfolio</title>
       <meta name="keywords" content={projects[0].tags} />
-      <meta name="description" content={`A few highlights of ${section} open-source projects`} />
+      <meta name="description" content={`A few highlights of ${section} open-source projects.`} />
 
       <meta property="og:type" content="website" />
       <meta property="og:url" content={`${Deno.env.get("BASE_URL_WEBSITE")}/${section}`} />

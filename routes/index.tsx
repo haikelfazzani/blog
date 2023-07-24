@@ -9,6 +9,7 @@ export default function Home() {
         <title>Haikel Fazzani | Linux, React/Native, Typescript, NodeJs and Go developer</title>
         <meta name="title" content="Haikel Fazzani | Linux, React/Native, Typescript, NodeJs and Go developer" />
         <meta name="description" content="Haikel Fazzani: Master's in Network Security | Linux, React/Native, TypeScript, Node.js, Go Developer" />
+        <meta name="keywords" content="network security,software engineering,java,android,mobile ,chrome extensions,haikel fazzani, fazzani, master, engineer, portfolio, developer, software, javaScript, python, nodejs, golang, security, pentesting, soc, open source,how to become a web developer,how to develop a web site,what is business development" />
         <meta itemProp="image" content="https://i.ibb.co/SwqxSc0/Screenshot-2023-07-13-10-55-26.png"></meta>
         <meta itemProp="author" content="Haikel Fazzani" />
 

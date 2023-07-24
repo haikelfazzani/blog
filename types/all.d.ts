@@ -1,7 +1,7 @@
 export type BlogPost = {
   title: string
   slug: string
-  tags: Array<string>
+  tags: string[]
   image: string
   excerpt: string
   content: { markdown: string }
@@ -15,7 +15,7 @@ export type BlogPatialPost = {
   title: string
   slug: string
   excerpt: string
-  tags: Array<string>
+  tags: string[]
   image: string
   date: string
 }
@@ -31,4 +31,11 @@ export type Project = {
   firefox?: string
   edge?: string
   dev_tools?: string[]
+}
+
+export type ProjectPatial = {
+  name: string
+  section: string
+  count: number
+  icon: string
 }

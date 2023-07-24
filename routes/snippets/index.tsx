@@ -5,8 +5,9 @@ import { BlogPatialPost } from "../../types/all.d.ts";
 import Link from "../../components/Link.tsx";
 
 type Data = {
-  snippets: BlogPatialPost[] | null
+  snippets: BlogPatialPost[]
   tag: string | null
+  tags: string[]
 }
 
 export const handler: Handlers<Data> = {
@@ -28,11 +29,13 @@ export const handler: Handlers<Data> = {
 
       if (errors || res.status === 404 || data.snippets.length < 1) return ctx.renderNotFound();
 
+      const tags: string[] = [];
       let snippets: BlogPatialPost[] = data.snippets.slice(0);
 
       if (tag) snippets = data.snippets.filter((p: BlogPatialPost) => p.tags.includes(tag));
+      else snippets?.forEach(t => { t.tags.forEach(v => { if (!tags.includes(v)) tags.push(v); }); });
 
-      const resp = await ctx.render({ snippets, tag });
+      const resp = await ctx.render({ snippets, tag, tags });
       return resp;
     } catch (_error) {
       return ctx.renderNotFound();
@@ -41,17 +44,18 @@ export const handler: Handlers<Data> = {
 };
 
 export default function Page({ data }: PageProps<Data>) {
-  const { snippets, tag } = data;
+  const { snippets, tag, tags } = data;
 
   return <>
     <Meta>
       <title>Snippets | Haikel Fazzani</title>
       <meta itemProp="author" content="Haikel Fazzani" />
+      <meta name="keywords" content={tags.join(',')} />
       <meta property="og:type" content="website" />
       <meta property="og:url" content={`${Deno.env.get("BASE_URL_WEBSITE")}/snippets`} />
       <meta property="og:title" content="Snippets | Haikel Fazzani" />
       <meta property="og:description" content="Some useful snippets for your next new project written by Haikel Fazzani." />
-      <meta property="og:image" content="https://i.ibb.co/SwqxSc0/Screenshot-2023-07-13-10-55-26.png" />
+      <meta property="og:image" content={snippets[0].image} />
     </Meta>
 
     <main class="overflow">
@@ -59,6 +63,10 @@ export default function Page({ data }: PageProps<Data>) {
       <p class="mb-0">Some useful snippets for your next new project.</p>
 
       {tag && <h6><i class="fa fa-search mr-1"></i>{snippets?.length} result<small>(s)</small> found: {tag}</h6>}
+
+      <div class="w-100 d-flex flex-wrap mt-2">
+        {tags.length > 0 && tags.map((tag, i) => <a href={"/snippets?tag=" + tag} class="tag cp mr-2 mb-1" key={i}>{tag}</a>)}
+      </div>
 
       <ul class="mt-3">
         {snippets!.map((post, i: number) => <li class="mb-2 p-2 card" key={i}>

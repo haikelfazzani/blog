@@ -5,7 +5,7 @@ import { BlogPost } from "../../types/all.d.ts";
 import Disqus from "../../islands/Disqus.tsx";
 import { Head, asset } from "$fresh/runtime.ts";
 
-export const handler: Handlers<BlogPost[] | null> = {
+export const handler: Handlers<BlogPost | null> = {
   async GET(_req, ctx) {
     const slug: string = ctx.params.slug;
     const HYGRAPH_URL = Deno.env.get("HYGRAPH_URL") as string;
@@ -25,7 +25,8 @@ export const handler: Handlers<BlogPost[] | null> = {
       return ctx.renderNotFound();
     }
 
-    return ctx.render(data.posts[0]);
+    const post={ ...data.posts[0], tags: [...data.posts[0].tags, 'haikel fazzani', 'tutorials', 'mobile developement', 'web app', 'network security', 'blog dev'] };
+    return ctx.render(post);
   },
 };
 
@@ -36,12 +37,13 @@ export default function Post({ data }: PageProps<BlogPost>) {
       <meta name="description" content={data.excerpt} />
       <meta name="keywords" content={data.tags?.join(',')} />
       <meta itemProp="author" content="Haikel Fazzani" />
+      <meta itemProp="image" content={data.image} />
 
       <meta property="og:type" content="website" />
       <meta property="og:url" content={`${Deno.env.get("BASE_URL_WEBSITE")}/blog/${data.slug}`} />
-      <meta property="og:title" content={data.title} />
+      <meta property="og:title" content={data.title + ' | Blog'} />
       <meta property="og:description" content={data.excerpt} />
-      <meta property="og:image" content="https://i.ibb.co/SwqxSc0/Screenshot-2023-07-13-10-55-26.png" />
+      <meta property="og:image" content={data.image} />
 
       <link rel="canonical" href={`${Deno.env.get("BASE_URL_WEBSITE")}/blog/${data.slug}`} />
       <link rel="stylesheet" as="style" href={asset('/prism.css')} />
@@ -52,7 +54,7 @@ export default function Post({ data }: PageProps<BlogPost>) {
 
       <div class="border-left p-2 overflow">
         <div class="d-flex flex-wrap border-bottom pb-1 mb-1">
-          {data.tags.map((tag, i) => <a href={"/blog?tag=" + tag} class="tag cp mr-2 mb-1" key={i}>{tag}</a>)}
+          {data.tags.slice(0,3).map((tag, i) => <a href={"/blog?tag=" + tag} class="tag cp mr-2 mb-1" key={i}>{tag}</a>)}
         </div>
 
         <p>I hope this post was helpful to you.</p>

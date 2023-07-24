@@ -1,14 +1,16 @@
 import DevLinks from "../components/DevLinks.tsx";
-import Meta from "../components/Meta.tsx";
+import { Head } from "$fresh/runtime.ts";
 import SocialLinks from "../components/SocialLinks.tsx";
 
 export default function contact() {
   return (
     <main class="overflow">
-      <Meta>
+      <Head>
         <title>Contact | Haikel Fazzani</title>
+        <meta itemProp="image" content="https://i.ibb.co/SwqxSc0/Screenshot-2023-07-13-10-55-26.png"></meta>
+        <meta itemProp="author" content="Haikel Fazzani" />
         <link rel="canonical" href={Deno.env.get("BASE_URL_WEBSITE") +"/contact"} />
-      </Meta>
+      </Head>
 
       <h1>CONTACT</h1>
       <p>Thanks For Your Interest In Getting In Touch!</p>
