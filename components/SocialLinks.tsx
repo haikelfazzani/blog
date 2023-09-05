@@ -10,16 +10,6 @@ const links = [
     href: "twitter.com/HaikelFazzani",
     img: "i.ibb.co/TKB3Z2H/twitter-46x38-2x.png",
     title: "Twitter"
-  },
-  {
-    href: "www.instagram.com/haikel.fazzani",
-    img: "static.cdninstagram.com/rsrc.php/v3/yB/r/-7Z_RkdLJUX.png",
-    title: "Instagram"
-  },
-  {
-    href: "www.tiktok.com/@haikel.fazzani",
-    img: "sf-tb-sg.ibytedtos.com/obj/eden-sg/uhtyvueh7nulogpoguhm/tiktok-icon2.png",
-    title: "Tiktok"
   }
 ];
 
