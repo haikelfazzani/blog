@@ -69,10 +69,10 @@ export default function Page({ data }: PageProps<Data>) {
       </div>
 
       <ul class="mt-3">
-        {snippets!.map((post, i: number) => <li class="mb-2 p-2 card" key={i}>
+        {snippets!.map((post, i: number) => <li class="mb-2 p-2 pb-0 card" key={i}>
           <Link href={"/snippets/" + post.slug}><h2 class="mt-0 text-3" title={post.title}>{post.title}</h2></Link>
           <p class="light">{post.excerpt}</p>
-          <div>{post.tags.map((tag, idx) => <span class="tag mr-2" key={idx}>{tag}</span>)}</div>
+          <div class="d-flex flex-wrap">{post.tags.map((tag, idx) => <span class="tag mr-2 mb-2" key={idx}>{tag}</span>)}</div>
         </li>)}
       </ul>
     </main>

@@ -24,7 +24,7 @@ export const handler: Handlers<Data> = {
 
       if (!/[a-z]/gi.test(section) || !section || section.length > 100) throw new Error('invalid section');
 
-      const res = await fetch(`${Deno.env.get("BASE_URL_PORTFOLIO_DATA")}/_${section}.json`);
+      const res = await fetch(`${Deno.env.get("BASE_URL_README_DIR")}/_${section}.json`);
       let projects: Project[] = await res.json();
 
       if (res.status === 404 || !projects || projects.length < 1) throw new Error('No projects found');
