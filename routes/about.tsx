@@ -42,6 +42,23 @@ export default function about() {
           <li class="light">Higher Institute of Technological Studies of Rades - ISET Rades</li>
         </ul>
       </section>
+
+      <section class="mb-3">
+        <h2 class="m-0 mb-1 text-3">Certifications</h2>
+        <ul>
+          <li><a href="https://www.skillfront.com/certifications/SkillFront-SFE016daf33e89da-67311133614675.pdf" target="_blank">
+            <i class="fa fa-circle mr-1"></i>ISO/IEC 27001</a></li>
+          <li><a href="/certifications/pwpc.pdf" target="_blank"><i class="fa fa-circle mr-1"></i>Remote Work Professional Certification</a></li>
+          <li><a href="https://www.hackerrank.com/certificates/cbed23248326" target="_blank"><i class="fa fa-circle mr-1"></i>JavaScript (hackerrank) Certificate</a></li>
+        </ul>
+      </section>
+
+      <div class="bg-green" data-iframe-width="150" data-iframe-height="270" data-share-badge-id="79aa61fd-5ed5-445b-8d19-8a6e0d5143d7"
+        data-share-badge-host="https://www.credly.com"></div>
+      <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js">
+
+      </script>
+
     </main>
   )
 }
