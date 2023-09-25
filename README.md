@@ -2,7 +2,6 @@
 
 - Framework: Deno Fresh
 - CMS: hygraph
-- Gitlab: storing portfolio data
 - Deployment: Deno Deploy
 - Styling: Custom CSS
 - Analytics: Microsoft Clarity

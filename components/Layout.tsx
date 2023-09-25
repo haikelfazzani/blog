@@ -9,8 +9,6 @@ function Nav() {
     </div>
 
     <Link aria-label="Home" href="/" title="Home"><i class="fa fa-home mr-2"></i><span>Home</span></Link>
-    <Link aria-label="About" href="/about" title="About"><i class="fa fa-info-circle mr-2"></i><span>About</span></Link>
-    <Link aria-label="Portfolio" href="/portfolio"><i class="fas fa-shapes mr-2"></i><span>Portfolio</span></Link>
     <Link aria-label="Blog" href="/blog"><i class="fas fa-book mr-2"></i><span>Blog</span></Link>
     <Link aria-label="Snippets" href="/snippets"><i class="fas fa-laptop-code mr-2"></i><span>Snippets</span></Link>
     <Link aria-label="Contact" href="/contact"><i class="fas fa-paper-plane mr-2"></i><span>Contact</span></Link>

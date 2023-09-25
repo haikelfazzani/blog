@@ -33,7 +33,7 @@ export default function Home() {
             <h2 class="m-0 text-1">I'm Haikel Fazzani</h2>
             <h3 class="m-0 text-1">I'm Haikel Fazzani</h3>
           </div>
-          <p>Welcome to my website</p>
+          <p>Welcome to my blog</p>
         </section>
 
         <section class="mb-3">
