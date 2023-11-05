@@ -1,5 +1,5 @@
 import { marked } from "marked";
-import Prism from 'prismjs';
+// import Prism from 'prismjs';
 import { useState } from "preact/hooks";
 
 function throttle<Args extends unknown[]>(fn: (...args: Args) => void, cooldown: number) {
@@ -31,12 +31,16 @@ function throttle<Args extends unknown[]>(fn: (...args: Args) => void, cooldown:
 export default function Markdown(props: { data: string }) {
   const [progressW, setProgressW] = useState(0)
 
-  marked.setOptions({
-    renderer: new marked.Renderer(),
-    highlight: (code, lang) => {
-      return Prism.highlight(code, Prism.languages.javascript, 'javascript')
-    }
-  });
+  const code = marked.parse(props.data);
+    
+  // console.log(code);
+
+  // marked.setOptions({
+  //   renderer: new marked.Renderer(),
+  //   // highlight: (code, lang) => {
+  //   //   return Prism.highlight(code, Prism.languages.javascript, 'javascript')
+  //   // }
+  // });
 
   // deno-lint-ignore no-explicit-any
   const onScroll = throttle((e: any) => {
@@ -47,6 +51,6 @@ export default function Markdown(props: { data: string }) {
 
   return <>
     <div class="w-100 scroll-progress" style={{ width: progressW + '%' }}></div>
-    <div onScroll={onScroll} class="markdown p-2 overflow" dangerouslySetInnerHTML={{ __html: marked.parse(props.data.trim()) }}></div>
+    <div onScroll={onScroll} class="markdown p-2 overflow" dangerouslySetInnerHTML={{ __html: code }}></div>
   </>
 }

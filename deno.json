@@ -12,14 +12,14 @@
     "jsxImportSource": "preact"
   },
   "imports": {
-    "$fresh/": "https://deno.land/x/fresh@1.4.2/",
-    "preact": "https://esm.sh/preact@10.15.1",
-    "preact/": "https://esm.sh/preact@10.15.1/",
-    "preact-render-to-string": "https://esm.sh/*preact-render-to-string@6.2.1",
-    "@preact/signals": "https://esm.sh/*@preact/signals@1.1.3",
-    "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.2.3",
+    "$fresh/": "https://deno.land/x/fresh@1.5.2/",
+    "preact": "https://esm.sh/preact@10.18.2",
+    "preact/": "https://esm.sh/preact@10.18.2/",
+    "preact-render-to-string": "https://esm.sh/*preact-render-to-string@6.2.2",
+    "@preact/signals": "https://esm.sh/*@preact/signals@1.2.1",
+    "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.5.0",
     "$std/": "https://deno.land/std@0.187.0/",
-    "marked": "https://esm.sh/marked@5.1.1",
+    "marked": "https://esm.sh/marked@9.1.5",
     "prismjs": "https://esm.sh/prismjs@1.29.0"
   },
   "lint": {
