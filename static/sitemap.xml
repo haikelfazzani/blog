@@ -1,338 +1,292 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
   <loc>https://haikel-fazzani.deno.dev/</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://haikel-fazzani.deno.dev/portfolio</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://haikel-fazzani.deno.dev/blog</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://haikel-fazzani.deno.dev/snippet</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
+  <loc>https://haikel-fazzani.deno.dev/snippets</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://haikel-fazzani.deno.dev/contact</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://haikel-fazzani.deno.dev/privacy-policy</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
+  <loc>https://haikel-fazzani.deno.dev/blog/icmp</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://haikel-fazzani.deno.dev/applications</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/extensions</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/packages</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/blog/dns-http2</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/blog/ntp-forwarder</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://haikel-fazzani.deno.dev/blog/tcp-header</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://haikel-fazzani.deno.dev/blog/promiscuous-mode</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://haikel-fazzani.deno.dev/privacy</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://haikel-fazzani.deno.dev/blog?tag=package</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://haikel-fazzani.deno.dev/blog?tag=linux</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://haikel-fazzani.deno.dev/blog?tag=ubuntu</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://haikel-fazzani.deno.dev/blog?tag=uninstall</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://haikel-fazzani.deno.dev/blog?tag=remove</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://haikel-fazzani.deno.dev/blog?tag=icmp</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://haikel-fazzani.deno.dev/blog?tag=network</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://haikel-fazzani.deno.dev/blog?tag=protocol</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://haikel-fazzani.deno.dev/blog?tag=tcp</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://haikel-fazzani.deno.dev/blog?tag=header</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://haikel-fazzani.deno.dev/blog?tag=promiscuous</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://haikel-fazzani.deno.dev/blog?tag=tcpdump</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://haikel-fazzani.deno.dev/blog?tag=monitor%20traffic</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://haikel-fazzani.deno.dev/blog?tag=javascript</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://haikel-fazzani.deno.dev/blog?tag=algorithms</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://haikel-fazzani.deno.dev/blog?tag=kmp</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://haikel-fazzani.deno.dev/blog?tag=network%20security</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://haikel-fazzani.deno.dev/blog?tag=web%20dev</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://haikel-fazzani.deno.dev/blog?tag=programming</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://haikel-fazzani.deno.dev/blog?tag=blog%20dev</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://haikel-fazzani.deno.dev/blog?tag=open%20source</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://haikel-fazzani.deno.dev/blog?tag=haikel%20fazzani</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://haikel-fazzani.deno.dev/blog?tag=haikel</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://haikel-fazzani.deno.dev/blog/uninstall-package-linux</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://haikel-fazzani.deno.dev/blog/tcpdump</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://haikel-fazzani.deno.dev/blog/graphql-schema-stitching</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
+  <loc>https://haikel-fazzani.deno.dev/blog/kmp-algorithm</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://haikel-fazzani.deno.dev/blog/promisify</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://haikel-fazzani.deno.dev/snippet/ping-icmp</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
+  <loc>https://haikel-fazzani.deno.dev/snippets?tag=web-streams</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://haikel-fazzani.deno.dev/applications/vconsole</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
+  <loc>https://haikel-fazzani.deno.dev/snippets?tag=nodejs</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://haikel-fazzani.deno.dev/applications/melflix</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
+  <loc>https://haikel-fazzani.deno.dev/snippets?tag=axios</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://haikel-fazzani.deno.dev/applications/instant-file-sharing</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
+  <loc>https://haikel-fazzani.deno.dev/snippets?tag=proxy-server</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://haikel-fazzani.deno.dev/applications/wemeet</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
+  <loc>https://haikel-fazzani.deno.dev/snippets?tag=worker</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://haikel-fazzani.deno.dev/applications/medical-cabinet-management</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
+  <loc>https://haikel-fazzani.deno.dev/snippets?tag=thread</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://haikel-fazzani.deno.dev/applications/webrtc-mesh</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
+  <loc>https://haikel-fazzani.deno.dev/snippets?tag=dns</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://haikel-fazzani.deno.dev/applications/driver-facial-recognition</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
+  <loc>https://haikel-fazzani.deno.dev/snippets?tag=forward</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://haikel-fazzani.deno.dev/applications/codeshare</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
+  <loc>https://haikel-fazzani.deno.dev/snippets?tag=network</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://haikel-fazzani.deno.dev/applications/picode</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
+  <loc>https://haikel-fazzani.deno.dev/snippets?tag=ping</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://haikel-fazzani.deno.dev/applications/siql</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
+  <loc>https://haikel-fazzani.deno.dev/snippets?tag=icmp</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://haikel-fazzani.deno.dev/applications/soundme</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
+  <loc>https://haikel-fazzani.deno.dev/snippets?tag=python</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://haikel-fazzani.deno.dev/applications/kody</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
+  <loc>https://haikel-fazzani.deno.dev/snippets?tag=ntp</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://haikel-fazzani.deno.dev/applications/pijs</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
+  <loc>https://haikel-fazzani.deno.dev/snippets/web-streams-api-axios</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://haikel-fazzani.deno.dev/extensions/netfilter</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
+  <loc>https://haikel-fazzani.deno.dev/snippets/nodejs-proxy-server</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://haikel-fazzani.deno.dev/extensions/scan-website</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
+  <loc>https://haikel-fazzani.deno.dev/snippets/worker-thread</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://haikel-fazzani.deno.dev/extensions/reco</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
+  <loc>https://haikel-fazzani.deno.dev/snippets/dns-forwarder</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://haikel-fazzani.deno.dev/extensions/screeno</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
+  <loc>https://haikel-fazzani.deno.dev/snippets/ping-icmp</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://haikel-fazzani.deno.dev/extensions/hls</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
+  <loc>https://haikel-fazzani.deno.dev/snippets/dns-http2</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://haikel-fazzani.deno.dev/extensions/cookies-manager</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
+  <loc>https://haikel-fazzani.deno.dev/snippets/ntp-forwarder</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://haikel-fazzani.deno.dev/extensions/speed-test</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
+  <loc>https://haikel-fazzani.deno.dev/blog?tag=tutorials</loc>
+  <lastmod>2023-11-05T03:01:13+00:00</lastmod>
   <priority>0.51</priority>
 </url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/extensions/soundcloud-downloader</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/extensions/JSONPlay</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/extensions/covid-19</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/extensions/detector</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/extensions/booky</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/packages/noderel</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/packages/servino</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/packages/rate-limit</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/packages/jsnview</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/packages/react-live</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/packages/whiteboard</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/packages/wordle</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/packages/cropnow</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/packages/yul-engine</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/packages/split-views</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/packages/hixo</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/blog?tag=dns</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/blog?tag=http2</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/blog?tag=nodejs</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/blog?tag=ntp</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/blog?tag=forwarder</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/blog?tag=network</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/blog?tag=promiscuous</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/blog?tag=linux</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/blog?tag=tcpdump</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/blog?tag=javascript</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/blog?tag=algorithms</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/snippet?tag=ping</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/snippet?tag=icmp</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/snippet?tag=python</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://haikel-fazzani.deno.dev/snippet?tag=raw-sockets</loc>
-  <lastmod>2023-02-13T20:03:58+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
+
+
 </urlset>

@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://haikel-fazzani.deno.dev/</title>
+  <link>https://haikel-fazzani.deno.dev/</link>
+
+<item>
+     <link>https://haikel-fazzani.deno.dev/</link>
+     <title>Haikel Fazzani | Linux, React/Native, Typescript, NodeJs and Go developer</title>
+     <description>Haikel Fazzani: Master's in Network Security | Linux, React/Native, TypeScript, Node.js, Go Developer</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog</link>
+     <title>Blog | Haikel Fazzani</title>
+     <description>I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/snippets</link>
+     <title>Snippets | Haikel Fazzani</title>
+     <description>Haikel Fazzani | Professionnel Master in Network security</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/contact</link>
+     <title>Contact | Haikel Fazzani</title>
+     <description>Contact | Haikel Fazzani</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog/icmp</link>
+     <title>ICMP | Blog</title>
+     <description>The Internet Control Message Protocol (ICMP) [RFC792].</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog/tcp-header</link>
+     <title>TCP Header | Blog</title>
+     <description>TCP, is a protocol that ensures data packets are delivered and received in order, with no dropped packets.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog/promiscuous-mode</link>
+     <title>Promiscuous mode | Blog</title>
+     <description>Promiscuous mode is a network monitoring technique used for packet sniffing, mostly for diagnosing network connectivity problems and detect potential vulnerabilities.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/privacy</link>
+     <title>Privacy &amp;amp; Policy | Haikel Fazzani</title>
+     <description>Privacy &amp;amp; Policy | Haikel Fazzani</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog?tag=package</link>
+     <title>Blog | Haikel Fazzani</title>
+     <description>I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog?tag=linux</link>
+     <title>Blog | Haikel Fazzani</title>
+     <description>I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog?tag=ubuntu</link>
+     <title>Blog | Haikel Fazzani</title>
+     <description>I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog?tag=uninstall</link>
+     <title>Blog | Haikel Fazzani</title>
+     <description>I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog?tag=remove</link>
+     <title>Blog | Haikel Fazzani</title>
+     <description>I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog?tag=icmp</link>
+     <title>Blog | Haikel Fazzani</title>
+     <description>I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog?tag=network</link>
+     <title>Blog | Haikel Fazzani</title>
+     <description>I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog?tag=protocol</link>
+     <title>Blog | Haikel Fazzani</title>
+     <description>I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog?tag=tcp</link>
+     <title>Blog | Haikel Fazzani</title>
+     <description>I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog?tag=header</link>
+     <title>Blog | Haikel Fazzani</title>
+     <description>I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog?tag=promiscuous</link>
+     <title>Blog | Haikel Fazzani</title>
+     <description>I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog?tag=tcpdump</link>
+     <title>Blog | Haikel Fazzani</title>
+     <description>I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog?tag=monitor%20traffic</link>
+     <title>Blog | Haikel Fazzani</title>
+     <description>I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog?tag=javascript</link>
+     <title>Blog | Haikel Fazzani</title>
+     <description>I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog?tag=algorithms</link>
+     <title>Blog | Haikel Fazzani</title>
+     <description>I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog?tag=kmp</link>
+     <title>Blog | Haikel Fazzani</title>
+     <description>I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog?tag=network%20security</link>
+     <title>Blog | Haikel Fazzani</title>
+     <description>I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog?tag=web%20dev</link>
+     <title>Blog | Haikel Fazzani</title>
+     <description>I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog?tag=programming</link>
+     <title>Blog | Haikel Fazzani</title>
+     <description>I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog?tag=blog%20dev</link>
+     <title>Blog | Haikel Fazzani</title>
+     <description>I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog?tag=open%20source</link>
+     <title>Blog | Haikel Fazzani</title>
+     <description>I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog?tag=haikel%20fazzani</link>
+     <title>Blog | Haikel Fazzani</title>
+     <description>I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog?tag=haikel</link>
+     <title>Blog | Haikel Fazzani</title>
+     <description>I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog/uninstall-package-linux</link>
+     <title>How to uninstall or remove package from Ubuntu | Blog</title>
+     <description>In this guide, we will discuss different methods to uninstall packages on the Ubuntu system. Choose either one of these methods depending on your needs. Each method will be explained in detail, so you can choose the one that best fits your requirements.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog/tcpdump</link>
+     <title>Tcpdump | Blog</title>
+     <description>The tcpdump is a CLI tool, designed to intercepts network traffic and providing a look at what kind of information flows through the existing connections.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog/kmp-algorithm</link>
+     <title>KMP Algorithm for Pattern Searching | Blog</title>
+     <description>KMP is a linear string-matching algorithm with low time complexity. It is the solution to the drawbacks of previous text-matching algorithms</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog/promisify</link>
+     <title>Promisify | Blog</title>
+     <description>In this article, you will learn how to write your own promisify function from scratch.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/snippets?tag=web-streams</link>
+     <title>Snippets | Haikel Fazzani</title>
+     <description>Haikel Fazzani | Professionnel Master in Network security</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/snippets?tag=nodejs</link>
+     <title>Snippets | Haikel Fazzani</title>
+     <description>Haikel Fazzani | Professionnel Master in Network security</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/snippets?tag=axios</link>
+     <title>Snippets | Haikel Fazzani</title>
+     <description>Haikel Fazzani | Professionnel Master in Network security</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/snippets?tag=proxy-server</link>
+     <title>Snippets | Haikel Fazzani</title>
+     <description>Haikel Fazzani | Professionnel Master in Network security</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/snippets?tag=worker</link>
+     <title>Snippets | Haikel Fazzani</title>
+     <description>Haikel Fazzani | Professionnel Master in Network security</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/snippets?tag=thread</link>
+     <title>Snippets | Haikel Fazzani</title>
+     <description>Haikel Fazzani | Professionnel Master in Network security</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/snippets?tag=dns</link>
+     <title>Snippets | Haikel Fazzani</title>
+     <description>Haikel Fazzani | Professionnel Master in Network security</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/snippets?tag=forward</link>
+     <title>Snippets | Haikel Fazzani</title>
+     <description>Haikel Fazzani | Professionnel Master in Network security</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/snippets?tag=network</link>
+     <title>Snippets | Haikel Fazzani</title>
+     <description>Haikel Fazzani | Professionnel Master in Network security</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/snippets?tag=ping</link>
+     <title>Snippets | Haikel Fazzani</title>
+     <description>Haikel Fazzani | Professionnel Master in Network security</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/snippets?tag=icmp</link>
+     <title>Snippets | Haikel Fazzani</title>
+     <description>Haikel Fazzani | Professionnel Master in Network security</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/snippets?tag=python</link>
+     <title>Snippets | Haikel Fazzani</title>
+     <description>Haikel Fazzani | Professionnel Master in Network security</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/snippets?tag=ntp</link>
+     <title>Snippets | Haikel Fazzani</title>
+     <description>Haikel Fazzani | Professionnel Master in Network security</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/snippets/web-streams-api-axios</link>
+     <title>NodeJs Web Streams API with Axios | Snippets</title>
+     <description>A few highlights of Haikel Fazzani snippets</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/snippets/nodejs-proxy-server</link>
+     <title>Proxy Server | Snippets</title>
+     <description>A few highlights of Haikel Fazzani snippets</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/snippets/worker-thread</link>
+     <title>Worker Thread | Snippets</title>
+     <description>A few highlights of Haikel Fazzani snippets</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/snippets/dns-forwarder</link>
+     <title>DNS forwarder | Snippets</title>
+     <description>A few highlights of Haikel Fazzani snippets</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/snippets/ping-icmp</link>
+     <title>Ping implementation | Snippets</title>
+     <description>A few highlights of Haikel Fazzani snippets</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/snippets/dns-http2</link>
+     <title>DNS over HTTPS | Snippets</title>
+     <description>A few highlights of Haikel Fazzani snippets</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/snippets/ntp-forwarder</link>
+     <title>NTP forwarder | Snippets</title>
+     <description>A few highlights of Haikel Fazzani snippets</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://haikel-fazzani.deno.dev/blog?tag=tutorials</link>
+     <title>Blog | Haikel Fazzani</title>
+     <description>I'm happy to write about various topics whether it's a technical deep dive or a soft skills piece</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
