@@ -9,7 +9,7 @@ export default function Home() {
         <title>Haikel Fazzani | Linux, React/Native, Typescript, NodeJs and Go developer</title>
         <meta name="title" content="Haikel Fazzani | Linux, React/Native, Typescript, NodeJs and Go developer" />
         <meta name="description" content="Haikel Fazzani: Master's in Network Security | Linux, React/Native, TypeScript, Node.js, Go Developer" />
-        <meta name="keywords" content="network security,software engineering,java,android,mobile ,chrome extensions,haikel fazzani, fazzani, master, engineer, portfolio, developer, software, javaScript, python, nodejs, golang, security, pentesting, soc, open source,how to become a web developer,how to develop a web site,what is business development" />
+        <meta name="keywords" content="software engineer, network engineer, network, tcp, http, icmp, udp, tcp protocol, osi model, osi layers, linux security, network security, software engineering,java,android,mobile ,chrome extensions,haikel fazzani, fazzani" />
         <meta itemProp="image" content="https://i.ibb.co/SwqxSc0/Screenshot-2023-07-13-10-55-26.png"></meta>
         <meta itemProp="author" content="Haikel Fazzani" />
 
@@ -48,6 +48,7 @@ export default function Home() {
         <section class="mb-3">
           <h2 class="text-3">Latest blog posts</h2>
           <ul>
+            <li><i class="fa fa-circle mr-2 light"></i><a href="/blog/uninstall-package-linux">How to uninstall or remove package from Ubuntu</a></li>
             <li><i class="fa fa-circle mr-2 light"></i><a href="/blog/icmp">ICMP</a></li>
             <li><i class="fa fa-circle mr-2 light"></i><a href="/blog/tcp-header">TCP Header</a></li>
             <li><i class="fa fa-circle mr-2 light"></i><a href="/blog/promiscuous-mode">Promiscuous mode</a></li>

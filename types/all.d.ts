@@ -3,6 +3,7 @@ export type BlogPost = {
   slug: string
   tags: string[]
   image: string
+  keywords?: string
   excerpt: string
   content: { markdown: string }
   updatedAt: string
@@ -17,6 +18,7 @@ export type BlogPatialPost = {
   excerpt: string
   tags: string[]
   image: string
+  keywords?: string
   date: string
 }
 

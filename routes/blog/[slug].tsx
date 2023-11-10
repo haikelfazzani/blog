@@ -25,8 +25,7 @@ export const handler: Handlers<BlogPost | null> = {
       return ctx.renderNotFound();
     }
 
-    const post={ ...data.posts[0], tags: [...data.posts[0].tags, 'haikel fazzani', 'tutorials', 'mobile developement', 'web app', 'network security', 'blog dev'] };
-    return ctx.render(post);
+    return ctx.render(data.posts[0]);
   },
 };
 
@@ -35,7 +34,7 @@ export default function Post({ data }: PageProps<BlogPost>) {
     <Head>
       <title>{data.title} | Blog</title>
       <meta name="description" content={data.excerpt} />
-      <meta name="keywords" content={data.tags?.join(',')} />
+      <meta name="keywords" content={data.keywords || data.tags?.join(',')} />
       <meta itemProp="author" content="Haikel Fazzani" />
       <meta itemProp="image" content={data.image} />
 

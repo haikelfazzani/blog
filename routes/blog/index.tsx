@@ -46,7 +46,7 @@ export const handler: Handlers<Data> = {
 
 export default function Page({ data }: PageProps<Data>) {
   let { posts, tag, tags } = data;
-  tags = [...tags, 'network security', 'web dev', 'programming', 'blog dev', 'open source', 'haikel fazzani', 'haikel'];
+  tags = [...tags, 'network', 'linux', 'ubuntu', 'tcp', 'udp', 'http','network security', 'web dev', 'programming', 'blog dev', 'open source', 'haikel fazzani', 'haikel'];
   return <>
     <Head>
       <title>Blog | Haikel Fazzani</title>
